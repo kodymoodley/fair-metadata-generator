@@ -22,6 +22,10 @@ To install the required libraries in ``requirements.txt`` run: ``pip install -r 
 
 Run ``python fairmetadatagenerator.py`` in your command line environment after installing Python and the required libraries
 
+### Generate an [HTML](https://html.spec.whatwg.org/) page from my JSON-LD file
+
+Want a human-readable version of your JSON-LD metadata? Use [this script](https://github.com/kodymoodley/fair-metadata-html-page-generator) to automatically generate a static HTML page describing the information inside your JSON-LD file.
+
 ### License and contributions
 
 The FAIR metadata generator is copyrighted by [Kody Moodley](https://sites.google.com/site/kodymoodley/) and released under the [GNU Affero License](https://www.gnu.org/licenses/agpl-3.0.txt)
