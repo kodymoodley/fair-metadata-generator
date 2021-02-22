@@ -24,6 +24,6 @@ Run ``python fairmetadatagenerator.py`` in your command line environment after i
 
 ### License and contributions
 
-The FAIR metadata generator is copyrighted by [Kody Moodley](https://sites.google.com/site/kodymoodley/) and released under the [GNU Affero License]
+The FAIR metadata generator is copyrighted by [Kody Moodley](https://sites.google.com/site/kodymoodley/) and released under the [GNU Affero License](https://www.gnu.org/licenses/agpl-3.0.txt)
 
 Contributions and bug reports are helpful and welcome.
