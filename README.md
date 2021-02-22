@@ -1,6 +1,6 @@
 # [FAIR](https://www.go-fair.org/fair-principles/) metadata generator
 
-## Description
+### Description
 
 A simple command line Python script to generate rich machine-readable metadata descriptions of datasets in [JSON-LD](https://json-ld.org/) using [Schema.org](https://schema.org/) vocabulary.
 
@@ -11,5 +11,19 @@ The script ``fairmetadatagenerator.py`` asks users to answer a set of pre-determ
 
 [Google](https://www.google.com/), for example, is gradually developing support for [dataset search tools](https://datasetsearch.research.google.com/) to help researchers find and reuse relevant data. Generating structured metadata about your datasets before you publish them to the Web (using tools such as FAIR metadata generator), therefore prepares your data to be more effectively found and reused in such search tools.
 
+### Requirements
 
++ [Python 3.7+](https://www.python.org/downloads/)
++ Python libraries specified in ``requirements.txt`` in this repository
 
+To install the required libraries in ``requirements.txt`` run: ``pip install -r requirements.txt`` in your command line environment (after installing Python).
+
+### Usage
+
+Run ``python fairmetadatagenerator.py`` in your command line environment after installing Python and the required libraries
+
+### License and contributions
+
+The FAIR metadata generator is copyrighted by [Kody Moodley](https://sites.google.com/site/kodymoodley/) and released under the [GNU Affero License]
+
+Contributions and bug reports are helpful and welcome.
