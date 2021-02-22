@@ -8,6 +8,7 @@ creator_given_name = input(df[df['question_id']==3]['question'].values[0] + " ")
 creator_family_name = input(df[df['question_id']==4]['question'].values[0] + " ")
 creator_occupation = input(df[df['question_id']==5]['question'].values[0] + " ")
 creator_email = input(df[df['question_id']==6]['question'].values[0] + " ")
+creator_image = input(df[df['question_id']==63]['question'].values[0] + " ")
 creator_affiliation_name = input(df[df['question_id']==7]['question'].values[0] + " ")
 creator_affiliation_url = input(df[df['question_id']==8]['question'].values[0] + " ")
 creator_affiliation_logo = input(df[df['question_id']==9]['question'].values[0] + " ")
@@ -24,6 +25,7 @@ if (contributors_boolean.lower() == 'y'):
         contributor['familyName'] = input(df[df['question_id']==13]['question'].values[0] + str(i) + " ")
         contributor['jobTitle'] = input(df[df['question_id']==14]['question'].values[0] + str(i) + " ")
         contributor['email'] = input(df[df['question_id']==15]['question'].values[0] + str(i) + " ")
+        contributor['image'] = input(df[df['question_id']==64]['question'].values[0] + str(i) + " ")
         contributor['name'] = input(df[df['question_id']==16]['question'].values[0] + str(i) + " ")
         contributor['url'] = input(df[df['question_id']==17]['question'].values[0] + str(i) + " ")
         contributor['logo'] = input(df[df['question_id']==18]['question'].values[0] + str(i) + " ")
@@ -38,6 +40,7 @@ if (publisher == 'p'):
         publisher_family_name = creator_given_name
         publisher_occupation = creator_occupation
         publisher_email = creator_email
+        publisher_image = creator_image
         publisher_affiliation_name = creator_affiliation_name
         publisher_affiliation_url = creator_affiliation_url
         publisher_affiliation_logo = creator_affiliation_logo
@@ -45,6 +48,7 @@ if (publisher == 'p'):
         publisher_given_name = input(df[df['question_id']==21]['question'].values[0] + " ")
         publisher_family_name = input(df[df['question_id']==22]['question'].values[0] + " ")
         publisher_occupation = input(df[df['question_id']==23]['question'].values[0] + " ")
+        publisher_image = input(df[df['question_id']==65]['question'].values[0] + " ")
         publisher_email = input(df[df['question_id']==24]['question'].values[0] + " ")
         publisher_affiliation_name = input(df[df['question_id']==25]['question'].values[0] + " ")
         publisher_affiliation_url = input(df[df['question_id']==26]['question'].values[0] + " ")
@@ -181,6 +185,7 @@ data['creator'] = {
     "familyName": creator_family_name,
     "jobTitle": creator_occupation,
     "email": creator_email,
+    "image": creator_image,
     "affiliation": {
         "@type": "Organization",
         "name": creator_affiliation_name,
@@ -204,6 +209,7 @@ for item in contributors:
         "familyName": item['familyName'],
         "jobTitle": item['jobTitle'],
         "email": item['email'],
+        "image": item['image'],
         "affiliation": {
             "@type": "Organization",
             "name": item['name'],
@@ -233,6 +239,7 @@ if (publisher == 'p'):
             "familyName": publisher_family_name,
             "jobTitle": publisher_occupation,
             "email": publisher_email,
+            "image": publisher_image,
             "affiliation": {
                 "@type": "Organization",
                 "name": publisher_affiliation_name,

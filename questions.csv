@@ -61,3 +61,6 @@ question_id,question,description,example_answer
 60,"Give a short description of the related dataset","description of related dataset","court decision full texts and metadata from the European Court of Justice"
 61,"What is the version number for this related dataset (e.g. 1.1.1 or v1.2)?","related dataset version number","2.0"
 62,"Link (URL) to the official website or download of the related dataset:","related dataset link","https://doi.org/10.5281/zenodo.3926736"
+63,"Provide a link (URL) to a profile photo of the author of the dataset:","profile photo of dataset author","https://www.maastrichtuniversity.nl/sites/default/files/styles/text_with_image_mobile_portrait/public/profile/kody.moodley/kody.moodley_photo_kmoodley.jpg?itok=bN7b8s_-&timestamp=1613419201"
+64,"Link (URL) to a profile photo for Contributor #","profile photo of dataset contributor","https://www.maastrichtuniversity.nl/sites/default/files/styles/text_with_image_mobile_portrait/public/profile/kody.moodley/kody.moodley_photo_kmoodley.jpg?itok=bN7b8s_-&timestamp=1613419201"
+65,"Link (URL) to a profile photo for the dataset publisher:","profile photo of dataset publisher","https://www.maastrichtuniversity.nl/sites/default/files/styles/text_with_image_mobile_portrait/public/profile/kody.moodley/kody.moodley_photo_kmoodley.jpg?itok=bN7b8s_-&timestamp=1613419201"

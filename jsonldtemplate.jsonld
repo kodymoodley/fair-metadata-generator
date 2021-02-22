@@ -9,6 +9,7 @@
     "familyName": "",
     "hasOccupation": "",
     "email": "",
+    "image": "",
     "url": "",
     "affiliation": {
       "@type": "Organization",
@@ -24,6 +25,7 @@
     "givenName": "",
     "familyName": "",
     "hasOccupation": "",
+    "image": "",
     "email": "",
     "affiliation": {
       "@type": "Organization",
